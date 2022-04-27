@@ -1,0 +1,341 @@
+// main content
+
+* {
+
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html{
+	font-size: 62.5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1,h2,h3,h4 {
+
+	font-family: 'Ubuntu' , sans-serif;
+
+}
+
+h1	{
+
+	font-size: 2.5em;
+}
+
+h2	{
+
+	font-size: 1.75em;
+}
+
+h3	{
+
+	font-size: 1.5em;
+}
+
+h4	{
+
+	font-size: 1em;
+}
+
+.fixul {
+
+	font-size: 1.5em;
+	
+
+	ol,li {
+		padding-right: 1em !important;
+		list-style: none;
+	}
+}
+
+.unete {
+
+	text-align: center;
+}
+
+.uneteCard {
+
+	
+	margin: 2em 1em;
+	vertical-align: top;
+
+}
+
+#tarjetas	{
+
+text-align: center;
+
+}
+
+
+.tarjeta {
+
+width: auto;
+text-align: center;
+vertical-align: top;
+padding: 1em 0;
+margin: 1em 1em;
+
+
+		h2 {
+
+		padding: 1em ;
+
+		ol li {
+				color: white;
+				font-family: 'Open Sans' , sans-serif;
+				font-weight: 300;
+				font-size:1.5em ;
+				padding: 1em 1.5em !important;
+				list-style: none;
+			}
+		}
+}	
+
+
+
+
+form ul li {
+
+	font-family: 'Open Sans',sans-serif;
+	font-size: 1.4rem;
+	padding: 1rem 1rem;
+
+	label	{
+
+	margin: 0 1rem ;
+	
+	}
+}
+
+
+
+.MenuHorSep{
+
+	margin: 0 0.5rem;
+}
+
+
+
+.buttonStyle {
+
+	color: $secondcolor;
+	width: 20em;
+	padding: 1em 1em;
+	margin: 1em 1em;
+	background-color: $keycolor;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 1em;
+	border: none;
+
+	&:hover {
+
+			background-color: $maincolor;
+			cursor: pointer;
+			animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  			animation-duration: 2s; /* don't forget to set a duration! */
+  			a,h3 {
+  				 color: white;
+  			}
+
+
+	}
+}
+
+
+
+.buttonStyle2 {
+	@extend .buttonStyle;
+	background-color: $maincolor;
+	color: white;
+	&:hover {
+
+			color: $maincolor;
+			background-color: $keycolor;
+			cursor: pointer;
+
+
+	}
+}
+
+.boxS {
+	@include shadow();
+}
+
+.centrar__Element {
+
+	text-align: center;
+}
+
+.tittle__NS_1 {
+	
+	font-size: 2.5em;
+	font-weight: bold;
+
+}
+
+
+
+
+.title__BigVSpace--center {
+	font-weight: bold;
+	padding: 2em 0;
+
+}
+
+.title__MDVSpace--center {
+	font-weight: bold;
+	padding: 1em 0;
+
+}
+
+.title__SMVSpace--center {
+
+	font-weight: bold;
+	padding: 0.5em 0;
+
+}
+
+.sepHor {
+
+	margin: 0 1em;
+}
+
+.separator__BigSpace {
+
+	height: 2em;
+
+}
+
+.textBox__main {
+
+	width: auto;
+
+}
+
+
+
+.text__SMVHSpace {
+
+	padding: 0.5em 0.5em;
+
+}
+
+.text__MDVHSpace {
+
+	padding: 1em 1em;
+
+}
+.roundCorner {
+
+	border-radius: 1.5em;
+}
+
+
+.bgBronce {
+	background-color: map-get($map:$paleta,$key:'bronce');
+}
+
+
+.colorBrz {
+
+	color: map-get($map:$paleta,$key:'bronce');
+}
+
+
+.bgPlata {
+
+
+	background-color: map-get($map:$paleta,$key:'plata');
+}
+
+.colorPlt {
+
+	color: map-get($map:$paleta,$key:'plata')
+}
+
+
+
+.bg_Oro {
+	background-color: map-get($map:$paleta,$key:'oro');
+}
+
+.colorOro {
+
+	color: map-get($map:$paleta,$key:'oro');
+}
+
+.dkColor {
+
+	color: map-get($map:$paleta,$key:'blk')
+}
+
+
+.colorBlue {
+
+	color: map-get($map:$paleta,$key:'primary')
+
+}
+
+.colorWt {
+
+	color: map-get($map:$paleta,$key:'wht')
+}
+
+.fontS {
+
+	font-size: 2rem;
+}
+
+.pBig {
+
+	font-size: 1.5rem;
+
+}
+
+#freature {
+
+
+}
+
+.freatImg {
+
+	width: 95%;
+	margin: 1em 0em;
+}
+	
+#features1{
+
+marging: 2em 0em;
+text-align: right;
+color: white;
+background-image: url(../img/ventajas-padel-socios-padel-pass-card.jpg);
+background-repeat: no-repeat;
+padding-left: 3em;
+padding-right: 1em;
+padding-top: 1em;
+padding-bottom: 1em;
+			ul {
+
+				margin-top: 1em;
+
+			li {
+
+				margin: 1em 0.2em;
+
+			}
+		}
+
+}
+
+.trjImg {
+
+	width: 120%;
+}

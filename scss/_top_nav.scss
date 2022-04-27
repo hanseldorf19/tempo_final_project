@@ -1,0 +1,28 @@
+//nesting
+
+#top_nav {
+			font-family: $mainfont;
+			background-color: $secondcolor;
+			width: 100%;
+
+		ul {
+
+			display: inline;
+
+			li {
+				display: inline;
+				margin: 0 0.50em;
+				list-style: none;
+				
+				a {
+					color: white;
+					text-decoration: none;
+					&:hover {
+					color: black;
+				}
+			}
+
+		}
+	}
+}	
+

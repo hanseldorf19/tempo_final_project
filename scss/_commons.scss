@@ -1,0 +1,38 @@
+// variables
+
+$maincolor: #003658; /* azul oscuro*/
+$keycolor: #91CC00; /* verde tenis*/
+$secondcolor: #587a96; /* azul claro*/
+$bk1color: #c4c4c4; /* gris claro*/
+$bronce: #A55219; /* bronze*/
+$plata: #616161; /* Plata*/
+$oro: #C7AE36; /* Oro*/
+
+
+// Sizing
+
+$w-100: 100%;
+$w-75: 75%;
+$w-50: 50%;
+$w-25: 25%;
+
+$paleta:(
+
+	'primary': $maincolor, //azul oscuro
+	'accent': $keycolor, //verde tenis
+	'blue_lg': $secondcolor, //azul claro
+	'bronce': $bronce, // bronce,
+	'plata': $plata, // plata,
+	'oro': $oro, // oro,
+	'wht': white, //blanco
+	'gry': #c4c4c4, //gris
+	'blk': black //negro
+
+	);
+
+
+
+@mixin shadow(){
+	box-shadow: 2px 3px 8px 4px rgba(0,0,0,0.6);
+}
+
